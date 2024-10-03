@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Tema oscuro */
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #00ff00; /* Verde fosforescente */
+}
+
+section {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #1e1e1e; /* Fondo más oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 255, 0, 0.5); /* Sombra verde fosforescente */
+}
+
+label p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #00ff00;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00ff00;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #00ff00; /* Botones verdes */
+    color: #121212;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #00cc00; /* Efecto hover más oscuro */
+}
+
+a {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00cc00;
+}
