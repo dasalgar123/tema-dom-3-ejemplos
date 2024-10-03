@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller ejercicio para ver: DOM in JavaScript</title>
+    <script>
+        function redirectToExercise() {
+            const selector = document.getElementById("selector");
+            const selectedValue = selector.value;
+            if (selectedValue) {
+                window.location.href = selectedValue;
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>DOM in JavaScript</h1>
+    <nav>
+        <label for="selector">Seleccione un ejercicio para ver:</label>
+        <select name="selector" id="selector" onchange="redirectToExercise()">
+            <option value="">-- Seleccione --</option>
+            <option value="https://dom-formulario-validacioncampos.netlify.app">
+                Escribe un programa que valide un formulario de registro.
+            </option>
+            <option value="url_de_tareas_interactivas">Escribir un programa para crear una lista de tareas interactiva.</option>
+            <option value="url_de_busqueda_tabla">Implementa una función de búsqueda en una tabla HTML</option>
+            <!-- Puedes agregar más opciones aquí -->
+        </select>
+    </nav>
+    
+    <footer></footer>
+</body>
+</html>
